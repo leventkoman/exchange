@@ -1,28 +1,141 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+##################################
+# OS & Editor
+##################################
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Environment files
-/.env
+# WebStorm / JetBrains
+.idea/
+*.iml
+# JetBrains http client
+http-client.env.json
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+##################################
+# Node / Dependencies
+##################################
 
-# TypeScript cache
-*.tsbuildinfo
+node_modules/
 
-# Logs
+# Allow package-lock if used, remove if using pnpm/yarn
+# Uncomment if you don't want to track lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+##################################
+# Build / Output
+##################################
+
+dist/
+build/
+out/
+.nuxt/
+.nuxt-dist/
+.vuepress/dist/
+
+##################################
+# Logs / Debug
+##################################
+
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+##################################
+# Runtime Data
+##################################
+
+coverage/
+*.pid
+*.seed
+*.pid.lock
+
+##################################
+# Environment & Secrets
+##################################
+
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+database.sqlite
+*.pem
+*.key
+
+##################################
+# Uploads
+##################################
+
+api/uploads/*
+
+##################################
+# Cache
+##################################
+
+.cache/
+.cache-loader/
+.nyc_output/
+temp/
+tmp/
+*.tmp
+
+##################################
+# Vite / Webpack / Bundler
+##################################
+
+.vite/
+vite.svg
+.sass-cache/
+.parcel-cache/
+.esbuild/
+
+##################################
+# TypeScript
+##################################
+
+*.tsbuildinfo
+
+##################################
+# PostgreSQL
+##################################
+
+pgdata/
+*.sql-journal
+*.dump
+
+##################################
+# Drizzle ORM
+##################################
+
+drizzle/
+.migrate-lock
+
+##################################
+# Tests & Coverage
+##################################
+
+coverage/
+.jest/
+jest-cache/
+jest-report/
+
+##################################
+# Other Tools
+##################################
+
+# Docker
+docker-compose.override.yml
+docker/*.log
+
+# VSCode (bazı takım üyeleri VSCode kullanıyorsa keep isteğe bağlı)
+.vscode/
