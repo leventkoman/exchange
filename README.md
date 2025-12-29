@@ -10,6 +10,7 @@ A full-stack web application that tracks real-time exchange rates using data fro
 - **Currency Converter:** Dynamic calculation tool based on Turkish Lira (TRY).
 - **Popular Rates:** Quick-view panel for the most frequently traded currencies.
 - **Rates Table:** Comprehensive table listing all available exchange rates in detail.
+- **🌓 Light/Dark Mode:** Full support for both light and dark themes for a better user experience.
 - **Responsive Design:** Modern, mobile-friendly interface built with TailwindCSS.
 
 ## 🛠️ Tech Stack
@@ -52,6 +53,7 @@ Bu proje, Türkiye Cumhuriyeti Merkez Bankası (TCMB) verilerini kullanarak gün
 - **Döviz Çevirici:** Türk Lirası (TL) tabanlı dinamik hesaplama aracı.
 - **Popüler Kurlar:** En çok işlem gören para birimleri için hızlı bakış paneli.
 - **Kur Tablosu:** Tüm döviz kurlarının detaylı listelendiği kapsamlı tablo.
+- **🌓 Light/Dark Mode**: Kullanıcı deneyimini artırmak amacıyla açık ve koyu tema seçenekleri için tam destek.
 - **Responsive Tasarım:** TailwindCSS ile mobil uyumlu modern arayüz.
 
 ## 🛠️ Teknolojiler
