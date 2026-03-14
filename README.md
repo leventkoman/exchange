@@ -80,10 +80,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
    npm install
 3. **Uygulamayı Başlatın:**
    ```bash
-   npm run dev   
-> **Not:**   
-> Eğer Express.js (TS) yerine standart server.js üzerinden ilerlemek isterseniz, package.json içerisindeki dev:api yolunu server.js olarak değiştirmeniz yeterlidir
-bu alanı nasıl eklemeliyim
+   npm run dev
 <img src="screenshots/1.png" alt="1" />
 <img src="screenshots/2.png" alt="1"  />
 <img src="screenshots/3.png" alt="1"  />

@@ -9,10 +9,11 @@ function Body() {
     const [selectedTo, setSelectedTo] = useState<string>('TRY');
     const [result, setResult] = useState<string>('');
     const [amount, setAmount] = useState<number>(0);
+    const apiBaseURL = import.meta.env.VITE_API_URL;
 
     const fetchExchange = async () => {
         try {
-            const response = await fetch("http://localhost:3000/api/currency");
+            const response = await fetch(`${apiBaseURL}/currency`);
             if (!response.ok) {
                 throw new Error("Something went wrong");
             }

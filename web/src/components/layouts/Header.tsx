@@ -1,4 +1,4 @@
-import {useTheme} from "../../hooks/useTheme.tsx";
+import {useTheme} from "../../hooks/useTheme";
 
 function Header() {
     const {theme, toggleTheme} = useTheme();

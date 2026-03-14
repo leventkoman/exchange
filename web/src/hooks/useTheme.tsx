@@ -1,6 +1,6 @@
 import {useContext} from "react";
 import type {ThemeContextType} from "../models/theme-context-type.ts";
-import {ThemeContext} from "../context/ThemeContext.tsx";
+import {ThemeContext} from "../context/ThemeContext";
 
 
 
